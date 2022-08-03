@@ -20,11 +20,21 @@ To access the Uniswap Interface, use an IPFS gateway link from the
 [latest release](https://github.com/Uniswap/uniswap-interface/releases/latest), 
 or visit [app.uniswap.org](https://app.uniswap.org).
 
+
 ## Listing a token
 
 Please see the
 [@uniswap/default-token-list](https://github.com/uniswap/default-token-list) 
 repository.
+
+## Project Instruction
+the project fork to [uniswap-interface](https://github.com/Uniswap/uniswap-interface) -- 2020-9-1 -commit for 67e75f6cc3ce0c733a21a3554840e435ffc064a1
+
+**Added the following business**
+* Support deployment contract for polygon 
+* Update the tokenList 
+* add gh-pages and script gh-pages -d build 
+* deployment to github pages [swap-interface](https://tangminjie.github.io/uniswapV2-interface/)
 
 ## Development
 
@@ -39,6 +49,17 @@ yarn
 ```bash
 yarn start
 ```
+
+### Build
+```bash
+yarn build
+```
+
+### deploy
+```bash
+yarn deploy
+```
+
 
 ### Configuring the environment (optional)
 
